@@ -51,11 +51,13 @@
         
         </form>
         
-        </br
-        
+        </br>
         <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href= "Ebus1.php">Clear Choice</a>
         
+        
+        </br>
+        <a href="homepage.html"class="btn btn-dark">Home </a>
         </body>
 
 </html>

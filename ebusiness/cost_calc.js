@@ -4,7 +4,7 @@ function calcSub(){
     
     var argSubTotal;
     
-    if(document.getElementById('salesforce'))
+    if(document.getElementById('salesforce').checked){
     argSubTotal = 100;
 }
 else {
@@ -12,7 +12,8 @@ else {
 }
 display (argSubTotal);
 }
-fuction display(parm1){
+
+function display(parm1){
     
     document.getElementById("subtotal").value = parm1;
     document.getElementById("total").value = parm1;
