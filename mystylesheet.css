@@ -1,3 +1,122 @@
+body {
+           background-image: url("http://simplywallpaper.net/pictures/2010/04/09/abtract-psychedelic-4.jpg");
+       }
+       
+       body,html{
+           height:100%;
+       }
+       
+      .container {
+          width: 100%; 
+          border: 1px solid grey;
+      }
+
+    header, footer {
+        padding: .2em;
+        color: white;
+        background-color: purple;
+        clear: left;
+        text-align: center;
+    }
+    
+    footer{
+        position:absolute;
+        top:100%;
+        width:100%;
+        text-align:center;
+    }
+
+
 .mainheading {
     text-align: center;
 }
+
+.circle1 {
+    background-image: url("");
+    width:10%;
+    border-radius: 50%;
+    border: 2px solid #000;
+    border-radius: 0 0 10px #000;
+    position: absolute;
+}
+
+.circle1:after {
+    content:"";
+    padding-bottom: 100%;
+    display:block;
+}
+
+.circle2 {
+    background-image: url("");
+    width:10%;
+    border-radius: 50%;
+    border: 2px solid #000;
+    border-radius: 0 0 10px #000;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -18px;
+}
+
+.circle2:after {
+    content:"";
+    padding-bottom: 100%;
+    display:block;
+}
+
+
+.circle3 {
+    background-image: url("");
+    width:10%;
+    border-radius: 50%;
+    border: 2px solid #000;
+    border-radius: 0 0 10px #000;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -34px;
+}
+
+.circle3:after {
+    content:"";
+    padding-bottom: 100%;
+    display:block;
+}
+
+.circle4 {
+    background-image: url("");
+    width:10%;
+    border-radius: 50%;
+    border: 2px solid #000;
+    border-radius: 0 0 10px #000;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -51px;
+}
+
+.circle4:after {
+    content:"";
+    padding-bottom: 100%;
+    display:block;
+}
+
+.circle5 {
+    background-image: url("");
+    width:10%;
+    border-radius: 50%;
+    border: 2px solid #000;
+    border-radius: 0 0 10px #000;
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: -60px;
+}
+
+.circle5:after {
+    content:"";
+    padding-bottom: 100%;
+    display:block;
+}
+
+ul #circlemenu li {
+    display: inline;
+}
+
+
