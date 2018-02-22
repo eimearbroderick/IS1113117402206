@@ -1,3 +1,10 @@
+
+body,html{
+    height:100%;
+    width:100%;
+}
+
+
 body {
            background-image: url("http://simplywallpaper.net/pictures/2010/04/09/abtract-psychedelic-4.jpg");
        }
@@ -14,7 +21,7 @@ body {
     header, footer {
         padding: .2em;
         color: white;
-        background-color: purple;
+        background-color: #;
         clear: left;
         text-align: center;
     }
@@ -31,92 +38,90 @@ body {
     text-align: center;
 }
 
-.circle1 {
-    background-image: url("");
-    width:10%;
-    border-radius: 50%;
-    border: 2px solid #000;
-    border-radius: 0 0 10px #000;
-    position: absolute;
-}
 
-.circle1:after {
-    content:"";
-    padding-bottom: 100%;
-    display:block;
-}
-
-.circle2 {
-    background-image: url("");
-    width:10%;
-    border-radius: 50%;
-    border: 2px solid #000;
-    border-radius: 0 0 10px #000;
-    position: absolute;
-    margin-left: 300px;
-    margin-top: -18px;
-}
-
-.circle2:after {
-    content:"";
-    padding-bottom: 100%;
-    display:block;
-}
-
-
-.circle3 {
-    background-image: url("");
-    width:10%;
-    border-radius: 50%;
-    border: 2px solid #000;
-    border-radius: 0 0 10px #000;
-    position: absolute;
-    margin-left: 600px;
-    margin-top: -34px;
-}
-
-.circle3:after {
-    content:"";
-    padding-bottom: 100%;
-    display:block;
-}
-
-.circle4 {
-    background-image: url("");
-    width:10%;
-    border-radius: 50%;
-    border: 2px solid #000;
-    border-radius: 0 0 10px #000;
-    position: absolute;
-    margin-left: 900px;
-    margin-top: -51px;
-}
-
-.circle4:after {
-    content:"";
-    padding-bottom: 100%;
-    display:block;
-}
-
-.circle5 {
-    background-image: url("");
-    width:10%;
-    border-radius: 50%;
-    border: 2px solid #000;
-    border-radius: 0 0 10px #000;
-    position: absolute;
-    margin-left: 1200px;
-    margin-top: -60px;
-}
-
-.circle5:after {
-    content:"";
-    padding-bottom: 100%;
-    display:block;
-}
 
 ul #circlemenu li {
     display: inline;
+}
+
+
+.box{
+    position:absolute;
+    top:34%;
+    left:10%;
+    height:60%;
+    width:80%;
+   
+}
+
+
+.btn1{
+    cursor: pointer;
+    font-family: "Helvetica";
+    position:relative;
+    top:10%;
+    left:15%;
+    padding:2%;
+    height:32%;
+    width:20%;
+    border-radius:50%;
+    background:#96ceb4;
+    border: 1px outset black
+    
+}
+
+.btn2{
+    cursor: pointer;
+    position:relative;
+    top:10%;
+    left:20%;
+    padding:2%;
+    height:32%;
+    width:20%;
+    border-radius:50%;
+    background:#ffeead;
+    border: 1px outset black;
+    
+}
+.btn3{
+    cursor:pointer;
+    position:relative;
+    top:10%;
+    left:25%;
+    padding:2%;
+    height:32%;
+    width:20%;
+    border-radius:50%;
+    background:#ffcc5c;
+    border: 1px outset black;
+    
+}
+.btn4{
+    cursor: pointer;
+    position:relative;
+    top:43%;
+    left:-10%;
+    padding:2%;
+    height:32%;
+    width:20%;
+    border-radius:50%;
+    background:#b8a9c9;
+    border: 1px outset black;
+    
+}
+
+.btn5{
+    cursor:pointer;
+    position:relative;
+    top:12%;
+    left:30%;
+    padding:2%;
+    height:32%;
+    width:20%;
+    border-radius:50%;
+    background:#ff6f69;
+    border: 1px outset black;
+    
 }
 
 
