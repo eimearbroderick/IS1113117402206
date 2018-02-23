@@ -7,7 +7,9 @@ body,html{
 
 body {
            background-image: url("http://simplywallpaper.net/pictures/2010/04/09/abtract-psychedelic-4.jpg");
-       }
+       
+    font-family: 'The Girl Next Door', cursive;
+}
        
        body,html{
            height:100%;
@@ -67,7 +69,8 @@ ul #circlemenu li {
     width:20%;
     border-radius:50%;
     background:#96ceb4;
-    border: 1px outset black
+    border: 1px outset black;
+    font-family:"The Girl Next Door";
     
 }
 
@@ -82,6 +85,7 @@ ul #circlemenu li {
     border-radius:50%;
     background:#ffeead;
     border: 1px outset black;
+    font-family:"The Girl Next Door";
     
 }
 .btn3{
@@ -95,6 +99,7 @@ ul #circlemenu li {
     border-radius:50%;
     background:#ffcc5c;
     border: 1px outset black;
+    font-family: "The Girl Next Door";
     
 }
 .btn4{
@@ -108,6 +113,7 @@ ul #circlemenu li {
     border-radius:50%;
     background:#b8a9c9;
     border: 1px outset black;
+    font-family: "The Girl Next Door";
     
 }
 
@@ -122,6 +128,7 @@ ul #circlemenu li {
     border-radius:50%;
     background:#ff6f69;
     border: 1px outset black;
+    font-family: "THe Girl Next Door";
     
 }
 
@@ -159,6 +166,7 @@ ul li{
   display:inline;
   position:relative;
   top:500%;
+  font-family:"Nanum Brush Script";
 }
 
 

@@ -14,3 +14,48 @@
     text-align: center;
     color: white;
 }
+
+
+
+
+body,html{
+    height:100%;
+    width:100%;
+}
+
+
+body {
+           background-image: url("http://simplywallpaper.net/pictures/2010/04/09/abtract-psychedelic-4.jpg");
+       
+    font-family: 'The Girl Next Door', cursive;
+}
+       
+       body,html{
+           height:100%;
+       }
+       
+      .container {
+          width: 100%; 
+          border: 1px solid grey;
+      }
+
+    header, footer {
+        padding: .2em;
+        color: white;
+        background-color: #AB47BC;
+        clear: left;
+        text-align: center;
+    }
+    
+    footer{
+        position:absolute;
+        top:100%;
+        width:100%;
+        text-align:center;
+        background-color: #AB47BC;
+    }
+
+
+.mainheading {
+    text-align: center;
+}
