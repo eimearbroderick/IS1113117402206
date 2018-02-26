@@ -1,8 +1,7 @@
 <?php
-// Start the session
-session_start();
+//start the session
+session_start()
 ?>
-
 
 <!DOCTYPE html>
 <html>
@@ -13,45 +12,44 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-         <script type="text/javascript" src="Ebus2_validator.js"></script>
+        <script type="text/javascript" src="Ebus2_validator.js"></script>
         
     </head>
     
-     <body>
+    <body>
         
-    <h4>Please enter your payment details.</h4>
+        <h4>Please enter your payment details.</h4>
         
-        <br />
+            <br />
             
-        <form method = "POST" action = "Ebus3.php">
+            <form method = "POST" action = "Ebus3.php">
                 
-            <label for="user_pin">
-                PIN 
-            </label>
+                <label for="user_pin">
+                     PIN 
+                </label>
                 
-            <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
+                <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
                     
-            <button type="Submit" id="btnPurchase" disabled> 
-                    Proceed with Purchase 
-            </button>            
+                <button type="submit" id="btnPurchase" disabled> 
+                    Proceed with Purchase  </button>
                 
-         </form>
+            </form>
             
             <br />
             
             <button onClick="validateDetails()"> Validate </button>
+            
+            <?php
+            //set session variable 
+            $_SESSION["total"] = $_POST["total"];
+            ?>
         
-       
-        <?php
-        //Set session variables
-        $_SESSION["total"] = $_POST["total"];
-        ?>
+        <script type="text/javascript" src="ebus2_validator.js"></script>
         
         
     </body>
     
-    </html>
     
     
-    
+</html>
+

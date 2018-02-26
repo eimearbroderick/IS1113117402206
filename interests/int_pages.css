@@ -131,7 +131,7 @@ ul li a:hover{
     position: relative;
     margin-top: 60px
     width:70px;
-    left:30%;
+    left:60%;
     length:60px;
     
     
@@ -140,6 +140,6 @@ ul li a:hover{
 .cloud-text {
     position: absolute;
     margin-top:100px;
-    width: 70%;
+    width: 100%;
     left: 20%;
 }
