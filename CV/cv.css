@@ -169,3 +169,117 @@ h2{
   top:10%;
 }
 
+
+
+
+
+
+body,html{
+    height:100%;
+    width:100%;
+}
+
+
+body {
+           background-image: url("http://simplywallpaper.net/pictures/2010/04/09/abtract-psychedelic-4.jpg");
+       
+    font-family: 'The Girl Next Door', cursive;
+}
+       
+       body,html{
+           height:100%;
+       }
+       
+      .container {
+          width: 100%; 
+          border: 1px solid grey;
+      }
+
+    header, footer {
+        padding: .2em;
+        color: white;
+        background-color: #AB47BC;
+        clear: left;
+        text-align: center;
+    }
+    
+    footer{
+        position:absolute;
+        top:100%;
+        width:100%;
+        text-align:center;
+        background-color: #AB47BC;
+    }
+
+
+.mainheading {
+    text-align: center;
+}
+
+*{
+  margin:0;
+}
+
+
+.header{
+  position:fixed;
+  width:100%;
+  height:10%;
+  background:#AB47BC;
+  z-index:2;
+}
+
+
+ .logo img{
+  top:10%;
+  position:absolute;
+  height:80%;
+}
+
+
+ul{
+  position:absolute;
+  width:60%;
+  height: 5%;
+  left:30%
+}
+
+
+ul li{
+  list-style:none;
+  display:inline;
+  position:relative;
+  top:500%;
+}
+
+
+ul li a{
+  margin:8px;
+  text-decoration:none;
+  color:white;
+}
+
+
+ul li a:hover{
+  color:#AB47BC;
+  background:white;
+  padding:1%;
+}
+
+.personal-text {
+    position: relative;
+    margin-top: 100px;
+    width: 50%;
+    left: 10%;
+}
+
+ 
+.stickwoman {
+  position:absolute;
+  margin-top: -330px;
+  left: 55%;
+  
+}
+  
+}
+

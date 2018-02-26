@@ -125,3 +125,21 @@ ul li a:hover{
     width: 50%;
     left: 30%;
 }
+
+
+.cloud-gif {
+    position: relative;
+    margin-top: 60px
+    width:70px;
+    left:30%;
+    length:60px;
+    
+    
+}
+
+.cloud-text {
+    position: absolute;
+    margin-top:100px;
+    width: 70%;
+    left: 20%;
+}
