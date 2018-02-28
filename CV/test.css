@@ -61,16 +61,11 @@ ul li a:hover{
 
 
 .image img{
-  width:100%;
+  width:175%;
+  
 }
 
 
-hr{
-  position:absolute;
-  top:75%;
-  left:10%;
-  width:80%;
-}
 
 
 h2{
@@ -83,11 +78,18 @@ h2{
 
 .box{
   position:absolute;
-  top:80%;
-  width:80%;
-  left:10%;
+  top:23%;
+  width:8%;
+  left:87%;
   height:20%;
+
 
 
  
 }
+
+@media only screen and(max-width:1200px){
+  .cloudpal{
+    position:absolute;
+    top:40px;  }
+  }

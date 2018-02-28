@@ -2,96 +2,128 @@
 <html>
     <head>
         <title>Select Product</title>
-         <link rel="stylesheet" href="ebus.css" type="text/css"/>
-    <!--jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="cost_calc.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=The+Girl+Next+Door" rel="stylesheet" />
-  
-   <style>
-       body {
-           background-image: url("http://simplywallpaper.net/pictures/2010/04/09/abtract-psychedelic-4.jpg");
-           font-family:"The Girl Next Door";
-       }
-   </style>
+        
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="cost_calc.js"></script>
+        <link rel="stylesheet" href="ebus.css" type="text/css"/>
+        
+        <style>
+              
+                body { background-image: url("http://simplywallpaper.net/pictures/2010/04/09/abtract-psychedelic-4.jpg");
+                
+                         
+                       
+                       text-align:center;
+                }
+            </style>
+
+
     </head>
     
-    
+    <body>
         
-        <div class="products">
-                <form method="POST" action="Ebus2.php">
-                
-               <center><label for="salesforce">
-                    <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/> 
-                Sales Force @ $100
-                </label>
-                
-                <br>
-                <br>
-                
-                <label for="cloud9">
-                    <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/> 
-                Cloud9 @ $300
-                </label>
-                
-                 <br>
-                 <br>
-                 
-                 <label for="amazon">
-                    <input type="radio" id="amazon" name="product" onClick="disablebtnProceed()"/> 
-                Amazon @ $200
-                </label>
-                
-                 <br>
-                 <br>
-                 
-                 <label for="gmail">
-                    <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/> 
-                Gmail @ $150
-                </label>
-                
-                <br>
-                <br>
-                
-                <label for="subtotal">
-                    Sub Total
-                    <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
-                </label>
-                <br>
-                <br>
-                
-                <label for="discount">
-                    Discount @ 5%
-                    <input type="text" id="discount" name="discount" value="0.00" readonly/>
-                </label>
-                
-                <br>
-                <br>
-                
-                <label for="vat">
-                    Vat @ 10%
-                    <input type="text" id="vat" name="vat" value="0.00" readonly/>
-                </label>
-                
-                <br>
-                <br>
-                
-                <label for="total">
-                    Total
-                    <input type="text" id="total" name="total" value="0.00" readonly/>
-                </label>
-                
-                <br>
-                <br>
-                <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
-                  </form>
-                
-                <br>
-        
-              <button onclick="calcSub()">Calculate Cost</button>
-              <a role="button" href="Ebus1.php">Clear Choice</a>
+        <!--navbar-->
+         <div class="header">
+          <div class="logo">
+            <img src ="https://dewey.tailorbrands.com/production/brand_version_mockup_image/643/577419643_b582ee60-95e9-4a34-bab2-66640c6833c7.png?cb=1519244670">
           </div>
+            <ul>
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Cloud Services</a></li>
+              <li><a href="#">Interests</a></li>
+            </ul>
+        </div>
+           
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+            <h4>Select a Product</h4>
+            
+            <br/>
+            
+            <form method="POST" action="Ebus2.php">
+              
+              <label for="salesforce">
+                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+                SalesForce @ $100
+              </label>
+              
+              <br/>
+              
+              <label for="cloud9">
+                <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()"/>
+                Cloud 9 @ $200
+              </label>
+              
+              <br/>
+              
+              <label for="aws">
+                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
+                AWS @ $300
+              </label>
+              
+              <br/>
+              
+              <label for="gmail">
+                <input type="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
+                Gmail @ $400
+              </label>
+              
+              <br/>
+              
+              <br/>
+              <br/>
+              
+              <label for="subtotal">
+                Sub Total
+                <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
+              </label>
+              
+              <br/>
+              
+              <label for="discount">
+                Discount @ 5%
+                <input type="text" id="discount" name="discount" value="0.00" readonly/>
+              </label>
+              
+              <br/>
+              
+              <label for="vat">
+                Vat @ 10%
+                <input type="text" id="vat" name="vat" value="0.00" readonly/>
+              </label>
+              
+              <br/>
+              
+              
+              
+              <label for="total">
+                Total
+                <input type="text" id="total"  name="total" value="0.00" readonly/>
+              </label>
+    
+              <br/>
+              
+              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            
+            </form>
+            
+            <br/>
+            <button onClick="calcSub()">Calculate Cost</button>
+            <a role="button" href="Ebus1.php">Clear Choice</a>
+            
        
-        
+    
     </body>
 </html>
