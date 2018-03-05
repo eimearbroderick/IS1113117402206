@@ -10,6 +10,31 @@
     background-color: rgb( 51, 153, 204);
 }
 
+#section4 {
+    background-image: url("https://media1.tenor.com/images/6dd084a91a77db1bb147f78db22cb51d/tenor.gif?itemid=5347670");
+    background-size: cover;
+}
+
+#section5 {
+    background-color: #574AE2;
+}
+
+#section6 {
+    background-color: #222A68;
+}
+
+#section7 {
+    background-color: #654597;
+}
+
+#section8 {
+    background-color: #AB81CD;
+}
+
+#section9 {
+    background-color: #E2ADF2;
+}
+
 .section {
     text-align: center;
     color: white;
@@ -133,8 +158,6 @@ ul li a:hover{
     width:70px;
     left:60%;
     length:60px;
-    
-    
 }
 
 .cloud-text {

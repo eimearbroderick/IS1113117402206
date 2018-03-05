@@ -55,7 +55,7 @@ ul li a:hover{
 
 .image{
   position:absolute;
-  top: -10%;
+  top: 0%;
   z-index:1;
 }
 
@@ -220,7 +220,7 @@ h2{
 }
 
 .pic1 img {
-  width:15%;
+  width:70%;
   height:10%;
 }
 
@@ -228,33 +228,38 @@ h2{
   position: absolute;
   top:51%;
   left:45%;
+  width:11%;
+  height: 100%;
 }
 
 .pic2 img{
-  width:20%;
-  left:35%;
+  width:70%;
+  height:90%;
+  
 }
 
 .pic3 {
   position:absolute;
   top:70%;
   left:45%;
+  width:11%;
 }
 
 .pic3 img{
-  width:15%;
-  height:10%;
+  width:70%;
+  height:90%;
 }
 
 .pic4 {
   position:absolute;
-  top:77%;
-  left:43%;
+  top:85%;
+  left:45%;
+  width: 11%;
 }
 
 .pic4 img {
-  width:20%;
-  height:15%;
+  width:70%;
+  height:90%;
 }
 
 
