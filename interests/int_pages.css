@@ -223,7 +223,7 @@ ul li a:hover{
 
 .bothbuttons {
     position:absolute;
-    top: 100%;
+    top: 90%;
     left: 50%;
 }
 
@@ -241,4 +241,10 @@ ul li a:hover{
     position: absolute;
     left: 62%;
     top: 70%;
+}
+
+.bothbuttons1 {
+    position:absolute;
+    top: 100%;
+    left: 50%;
 }
