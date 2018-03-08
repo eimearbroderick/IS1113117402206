@@ -9,13 +9,15 @@ session_start();
          <link href="https://fonts.googleapis.com/css?family=The+Girl+Next+Door" rel="stylesheet" />
         
         <style>
-            body { background-image: url("http://simplywallpaper.net/pictures/2010/04/09/abtract-psychedelic-4.jpg");
+            body {
                    font-family: "The Girl Next Door";
+                   background-color: #E1F2FE;
             }
         </style>
     </head>
     <body>
         
+        <!--Navbar-->
         <div class="header">
           <div class="logo">
             <img src ="https://dewey.tailorbrands.com/production/brand_version_mockup_image/643/577419643_b582ee60-95e9-4a34-bab2-66640c6833c7.png?cb=1519244670">
@@ -26,10 +28,11 @@ session_start();
               <li><a href="../Shop/shopHome.html">Shop</a></li>
               <li><a href="../Shop/aboutcloud.html">Cloud Services</a></li>
               <li><a href="../interests/sports.html">Interests</a></li>
-              <li><a href="../CV/cvHome.html">CV</a></li>
+              <li><a href="../CV/cv_page1.html">CV</a></li>
             </ul>
         </div>
         
+     <div class="receipt">
         <h2 class="title" id="ebus3heading">Receipt</h2>
         
         <div class="ebus3style">
@@ -63,7 +66,14 @@ session_start();
        
         <h3 class="ebus3text">
         Thank you for shopping with CloudPal.</h3>
-        </div>
-          
+        
+        
+     </div>
+     
+     <div class="cloudpal2">
+      <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/79/592678079_eb6afdfc-8eb4-4ab6-933c-22b23b577846.png?cb=1519674283">
+     </div>   
+     
+     <a href="../homepage/homepage.html" class ="btn-home">Home</a>
     </body>
 </html>

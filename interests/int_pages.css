@@ -1,13 +1,13 @@
  #section1 {
-    background-color: rgb(238,0, 90);
+    background-color: #0A2463;
 }
 
 #section2 {
-    background-color:rgb( 44, 62, 80);
+    background-color:#BD2D87;
 }
 
 #section3 {
-    background-color: rgb( 51, 153, 204);
+    background-color: #593C8F;
 }
 
 #section4 {
@@ -171,22 +171,28 @@ ul li a:hover{
     background-color: #AB47BC;
     border:none;
     color:white;
-    padding:15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+    cursor: pointer;
+    
+   
 }
 
 .btn-back {
-    background-color: #AB47BC;
+     background-color: #AB47BC;
     border:none;
     color:white;
-    padding:15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+    cursor: pointer;
 }
 
 .snail {
@@ -206,15 +212,33 @@ ul li a:hover{
     background-color: #AB47BC;
     border:none;
     color:white;
-    padding:15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+    cursor: pointer;
 }
 
 .bothbuttons {
     position:absolute;
-    top: 90%;
-    left: 45%;
+    top: 100%;
+    left: 50%;
+}
+
+.btn-next1 {
+    background-color: #AB47BC;
+    border:none;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+    cursor: pointer;
+    position: absolute;
+    left: 62%;
+    top: 70%;
 }

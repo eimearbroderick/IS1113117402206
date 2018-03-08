@@ -10,17 +10,16 @@ session_start();
          <link rel="stylesheet" href="ebusiness.css" type="text/css"/>
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=The+Girl+Next+Door" rel="stylesheet" />
-        
-        <style>
-            body { background-image: url("http://simplywallpaper.net/pictures/2010/04/09/abtract-psychedelic-4.jpg");
+       <style>
+            body { background-color: #E1F2FE;
                    font-family: "The Girl Next Door";
             }
         </style>
     </head>
     <body>
     
-    "<div class="header">
+    <!--Navbar-->
+    <div class="header">
           <div class="logo">
             <img src ="https://dewey.tailorbrands.com/production/brand_version_mockup_image/643/577419643_b582ee60-95e9-4a34-bab2-66640c6833c7.png?cb=1519244670">
           </div>
@@ -30,8 +29,13 @@ session_start();
               <li><a href="../Shop/shopHome.html">Shop</a></li>
               <li><a href="../Shop/aboutcloud.html">Cloud Services</a></li>
               <li><a href="../interests/sports.html">Interests</a></li>
-              <li><a href="../CV/cvHome.html">CV</a></li>
+              <li><a href="../CV/cv_page1.html">CV</a></li>
             </ul>
+        </div>
+        
+        
+        <div class="cloudpal3">
+        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/79/592678079_eb6afdfc-8eb4-4ab6-933c-22b23b577846.png?cb=1519674283">
         </div>
         
         <h2 class="title" id="ebus2heading">Enter Details</h2>

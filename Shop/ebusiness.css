@@ -215,7 +215,7 @@ h2{
 
 .pic1{
   position:absolute;
-  top: 35%;
+  top: 25%;
   left: 45%;
 }
 
@@ -226,7 +226,7 @@ h2{
 
 .pic2 {
   position: absolute;
-  top:51%;
+  top:41%;
   left:45%;
   width:11%;
   height: 100%;
@@ -240,7 +240,7 @@ h2{
 
 .pic3 {
   position:absolute;
-  top:70%;
+  top:56%;
   left:45%;
   width:11%;
 }
@@ -252,7 +252,7 @@ h2{
 
 .pic4 {
   position:absolute;
-  top:85%;
+  top:72%;
   left:45%;
   width: 11%;
 }
@@ -301,10 +301,7 @@ h2{
   }
 
 
-body{
-    background: url("http://simplywallpaper.net/pictures/2010/04/09/abtract-psychedelic-4.jpg")
-  
-}
+
 
 #btnProceed{
     position: absolute;
@@ -376,6 +373,12 @@ body{
     text-decoration: underline;
 }
 
+#ebus2boxes {
+  position: absolute;
+  top:40%;
+  left:40%;
+}
+
 
 
 #ebus3heading{
@@ -443,14 +446,16 @@ ul{
 
 h1{
      text-align: center;
-    opacity: 1;
-    color:#89cff0;
+     position:absolute;
+     top:10%;
+     left:0%;
+     
 }
 
 
 
 #btnValidate{
-     position: absolute;
+    position: absolute;
     top: 68%;
     left: 47%;
     
@@ -541,3 +546,39 @@ ul li a:hover{
   padding:1%;
 }
 
+.btn-home {
+    position: absolute;
+    top:90%;
+    left:49%;
+    background-color: #AB47BC;
+    color: white;
+    border: solid 1px #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+    cursor: pointer;
+}
+
+.receipt {
+  background-color: white;
+  font-family: "Times New Roman";
+  border-style: solid;
+}
+
+.cloudpal2 {
+  position: absolute;
+  left:40%;
+  top:15%;
+}
+
+.cloudpal3 {
+  position:absolute;
+  left:43%;
+  top:15%;
+}
+
+.btn-home {
+  left:48%;
+}
