@@ -5,7 +5,9 @@
 
 
 
-
+body {
+           background-image: url("http://simplywallpaper.net/pictures/2010/04/09/abtract-psychedelic-4.jpg");
+}
 
 .header{
   position:fixed;
@@ -82,11 +84,38 @@ h2{
   width:8%;
   left:87%;
   height:20%;
-
-
-
- 
 }
+
+.ed {
+position: absolute;
+margin-top: 100px;
+width: 50%;
+left: 10%;
+}
+
+ .ucc img{
+   position: absolute;
+   margin-top: -54%;
+   left: 95%;
+ }
+ 
+ .colaiste img {
+   position: absolute;
+   margin-top: -25%;
+   left: 88%;
+ }
+ 
+ .btn-cv2 {
+   position: relative;
+   left: 25%;
+ }
+ 
+ .work {
+   position: absolute;
+   margin-top: 100px;
+   width: 50%;
+   left: 10%;
+ }
 
 @media only screen and(max-width:1200px){
   .cloudpal{

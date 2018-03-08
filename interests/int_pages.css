@@ -1,4 +1,4 @@
-#section1 {
+ #section1 {
     background-color: rgb(238,0, 90);
 }
 
@@ -165,4 +165,56 @@ ul li a:hover{
     margin-top:100px;
     width: 100%;
     left: 20%;
+}
+
+.btn-next {
+    background-color: #AB47BC;
+    border:none;
+    color:white;
+    padding:15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-back {
+    background-color: #AB47BC;
+    border:none;
+    color:white;
+    padding:15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.snail {
+    position: absolute;
+    top: 36%;
+    left: 45%;
+}
+
+.buttons {
+    position:absolute;
+    top: 90%;
+    left: 45%;
+    
+}
+
+.btn-home {
+    background-color: #AB47BC;
+    border:none;
+    color:white;
+    padding:15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.bothbuttons {
+    position:absolute;
+    top: 90%;
+    left: 45%;
 }

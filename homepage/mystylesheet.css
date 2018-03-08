@@ -182,3 +182,8 @@ ul li a:hover{
   background:white;
   padding:1%;
 }
+
+.bothbuttons{
+  position: absolute;
+  top: 70px;
+}

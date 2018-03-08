@@ -1,180 +1,188 @@
 body,html{
-     height:100%;
-     width:100%;
- }
- 
- 
- body {
-            background-image: url("http://simplywallpaper.net/pictures/2010/04/09/abtract-psychedelic-4.jpg");
-      
+    height:100%;
+    width:100%;
+}
+
+
+body {
+           background-image: url("http://simplywallpaper.net/pictures/2010/04/09/abtract-psychedelic-4.jpg");
        
     font-family: 'The Girl Next Door', cursive;
-      }
-        
-        body,html{
-            height:100%;
-        }
-        
-       .container {
-           width: 100%; 
-           border: 1px solid grey;
+}
+       
+       body,html{
+           height:100%;
        }
- 
-     header, footer {
-         padding: .2em;
-         color: white;
-         background-color: #AB47BC;
-         clear: left;
-         text-align: center;
-     }
-     
-     footer{
-         position:absolute;
-         top:100%;
-         width:100%;
-         text-align:center;
-         background-color: #AB47BC;
-     }
- 
- 
- .mainheading {
-     text-align: center;
- }
- 
- 
- 
- ul #circlemenu li {
-     display: inline;
- }
- 
- 
- .box{
-     position:absolute;
-     top:34%;
-     left:10%;
-     height:60%;
-     width:80%;
+       
+      .container {
+          width: 100%; 
+          border: 1px solid grey;
+      }
+
+    header, footer {
+        padding: .2em;
+        color: white;
+        background-color: #AB47BC;
+        clear: left;
+        text-align: center;
+    }
     
- }
- 
- 
- .btn1{
-     cursor: pointer;
-     position:relative;
-     top:10%;
-     left:15%;
-     padding:2%;
-     height:32%;
-     width:20%;
-     border-radius:50%;
-     background:#96ceb4;
+    footer{
+        position:absolute;
+        top:100%;
+        width:100%;
+        text-align:center;
+        background-color: #AB47BC;
+    }
+
+
+.mainheading {
+    text-align: center;
+}
+
+
+
+ul #circlemenu li {
+    display: inline;
+}
+
+
+.box{
+    position:absolute;
+    top:34%;
+    left:10%;
+    height:60%;
+    width:80%;
+   
+}
+
+
+.btn1{
+    cursor: pointer;
+    font-family: "Helvetica";
+    position:relative;
+    top:10%;
+    left:15%;
+    padding:2%;
+    height:32%;
+    width:20%;
+    border-radius:50%;
+    background:#96ceb4;
     border: 1px outset black;
     font-family:"The Girl Next Door";
- }
- 
- .btn2{
-     cursor: pointer;
-     position:relative;
-     top:10%;
-     left:20%;
-     padding:2%;
-     height:32%;
-     width:20%;
-     border-radius:50%;
-     background:#ffeead;
-     border: 1px outset black;
+    
+}
+
+.btn2{
+    cursor: pointer;
+    position:relative;
+    top:10%;
+    left:20%;
+    padding:2%;
+    height:32%;
+    width:20%;
+    border-radius:50%;
+    background:#ffeead;
+    border: 1px outset black;
     font-family:"The Girl Next Door";
- }
- 
- .btn3{
-     cursor:pointer;
-     position:relative;
-     top:10%;
-     left:25%;
-     padding:2%;
-     height:32%;
-     width:20%;
-     border-radius:50%;
-     background:#ffcc5c;
-     border: 1px outset black;
+    
+}
+.btn3{
+    cursor:pointer;
+    position:relative;
+    top:10%;
+    left:25%;
+    padding:2%;
+    height:32%;
+    width:20%;
+    border-radius:50%;
+    background:#ffcc5c;
+    border: 1px outset black;
     font-family: "The Girl Next Door";
- }
- 
- .btn4{
-     cursor: pointer;
-     position:relative;
-     top:43%;
-     left:-10%;
-     padding:2%;
-     height:32%;
-     width:20%;
-     border-radius:50%;
-     background:#b8a9c9;
-     border: 1px outset black;
+    
+}
+.btn4{
+    cursor: pointer;
+    position:relative;
+    top:43%;
+    left:-10%;
+    padding:2%;
+    height:32%;
+    width:20%;
+    border-radius:50%;
+    background:#b8a9c9;
+    border: 1px outset black;
     font-family: "The Girl Next Door";
- }
- 
- .btn5{
-     cursor:pointer;
-     position:relative;
-     top:12%;
-     left:30%;
-     padding:2%;
-     height:32%;
-     width:20%;
-     border-radius:50%;
-     background:#ff6f69;
-     border: 1px outset black;
+    
+}
+
+.btn5{
+    cursor:pointer;
+    position:relative;
+    top:12%;
+    left:30%;
+    padding:2%;
+    height:32%;
+    width:20%;
+    border-radius:50%;
+    background:#ff6f69;
+    border: 1px outset black;
     font-family: "THe Girl Next Door";
- }
- 
- *{
-   margin:0;
- }
- 
- 
- .header{
-   position:fixed;
-   width:100%;
-   height:10%;
-   background:#AB47BC;
-   z-index:2;
- }
- 
- 
-  .logo img{
-   top:10%;
-   position:absolute;
-   height:80%;
- }
- 
- 
- ul{
-   position:absolute;
-   width:60%;
-   height: 5%;
-   left:30%
- }
- 
- 
- ul li{
-   list-style:none;
-   display:inline;
-   position:relative;
-   top:500%;
+    
+}
+
+*{
+  margin:0;
+}
+
+
+.header{
+  position:fixed;
+  width:100%;
+  height:10%;
+  background:#AB47BC;
+  z-index:2;
+}
+
+
+ .logo img{
+  top:10%;
+  position:absolute;
+  height:80%;
+}
+
+
+ul{
+  position:absolute;
+  width:60%;
+  height: 5%;
+  left:30%
+}
+
+
+ul li{
+  list-style:none;
+  display:inline;
+  position:relative;
+  top:500%;
   font-family:"Nanum Brush Script";
- }
- 
- 
- ul li a{
-   margin:8px;
-   text-decoration:none;
-   color:white;
- }
- 
- 
- ul li a:hover{
-   color:#AB47BC;
-   background:white;
-   padding:1%;
- }
+}
+
+
+ul li a{
+  margin:8px;
+  text-decoration:none;
+  color:white;
+}
+
+
+ul li a:hover{
+  color:#AB47BC;
+  background:white;
+  padding:1%;
+}
+
+.bothbuttons{
+  position: absolute;
+  top: 70px;
+}

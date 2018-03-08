@@ -281,5 +281,34 @@ ul li a:hover{
   
 }
   
+ .btn-cv2 {
+   position: absolute;
+   left: 45%;
+   margin-top:450px;
+ }
+ 
+ .work {
+   position: absolute;
+   margin-top: 100px;
+   width: 50%;
+   left: 10%;
+ }
+ 
+ 
+.coi img {
+   position: absolute;
+   left: 53%;
+   margin-top: 55px;
+ }
+ 
+ .rad img {
+   position: absolute;
+   left: 53%;
+   margin-top: 270px;
+ }
 
-
+.btn-cv1 {
+  position:absolute;
+  left:45%;
+  
+}
